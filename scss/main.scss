@@ -1,0 +1,19 @@
+@import 'mixins';
+
+body {
+	background-color: lightgrey;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif; 
+}
+
+button {
+	@include btn(yellow, #D2691E, 120px, 40px);
+}
+
+button:focus {
+	@include btn-focus(#D2691E, yellow);
+}
+
+input {
+	@include input(300px, 40px, 20px);
+}

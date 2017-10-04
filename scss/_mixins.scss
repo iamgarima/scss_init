@@ -1,0 +1,28 @@
+@mixin btn($bg-color, $color, $width, $height) {
+	width: $width;
+	height: $height;
+	color: $color;
+	background-color: $bg-color;
+	padding: 4px 6px;
+	border: 1px solid transparent;
+	border-radius: 6px;
+    font-size: 20px;
+}
+
+@mixin btn-focus($bg-color, $color) {
+	background-color: $bg-color;
+	color: $color;
+	outline-width: 0px;
+}
+
+@mixin input($width, $height, $font-size) {
+	width: $width;
+	height: $height;
+	font-size: $font-size;
+	color: #474747;
+	border: 1px solid transparent;
+	border-radius: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	outline-width: 0px;
+}
